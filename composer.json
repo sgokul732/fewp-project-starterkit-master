@@ -1,0 +1,19 @@
+{
+    "require": {
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "scripts": {
+        "setup": [
+            "composer install",
+            "npm install",
+            "npm run build",
+            "heroku login"
+        ],
+        "deploy": [
+            "npm run build",
+            "git add .",
+            "git commit -m'Application update'",
+            "git push -f heroku master"
+        ]
+    }
+}

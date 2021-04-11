@@ -1,0 +1,37 @@
+.SingerProfile {
+    border: 1px solid #ffcc00;
+    border-radius: 20px;
+    background: #ffcc00;
+    padding: 40px;
+    color: black;
+    font-size: 18px;
+    width: 600px;
+}
+
+.SingerProfileData {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.SingerProfile .SingerName {
+    font-size: 40px;
+}
+
+.SingerProfile .SingerAmazingLevel {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.SingerProfile .SingerCountry {
+    margin-top: 20px;
+}
+
+/* This injects "Country" into the display, but you could 
+easily just put the text inside of the template as well */
+
+.SingerProfile .SingerCountry:before {
+    font-size: 12px;
+    text-transform: uppercase;
+    content: "Country";
+    display: block;
+}
