@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/fewp-project-starterkit-master/static/css/main.e3271379.chunk.css",
+    "main.js": "/fewp-project-starterkit-master/static/js/main.a1f0ef47.chunk.js",
+    "main.js.map": "/fewp-project-starterkit-master/static/js/main.a1f0ef47.chunk.js.map",
+    "runtime-main.js": "/fewp-project-starterkit-master/static/js/runtime-main.8b8980dd.js",
+    "runtime-main.js.map": "/fewp-project-starterkit-master/static/js/runtime-main.8b8980dd.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/fewp-project-starterkit-master/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d31a17f8.chunk.js": "/fewp-project-starterkit-master/static/js/2.d31a17f8.chunk.js",
+    "static/js/2.d31a17f8.chunk.js.map": "/fewp-project-starterkit-master/static/js/2.d31a17f8.chunk.js.map",
+    "static/js/3.c7deabf1.chunk.js": "/fewp-project-starterkit-master/static/js/3.c7deabf1.chunk.js",
+    "static/js/3.c7deabf1.chunk.js.map": "/fewp-project-starterkit-master/static/js/3.c7deabf1.chunk.js.map",
+    "index.html": "/fewp-project-starterkit-master/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/fewp-project-starterkit-master/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.e3271379.chunk.css.map": "/fewp-project-starterkit-master/static/css/main.e3271379.chunk.css.map",
+    "static/js/2.d31a17f8.chunk.js.LICENSE.txt": "/fewp-project-starterkit-master/static/js/2.d31a17f8.chunk.js.LICENSE.txt",
+    "static/media/delete.bd21180d.png": "/fewp-project-starterkit-master/static/media/delete.bd21180d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b8980dd.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.d31a17f8.chunk.js",
+    "static/css/main.e3271379.chunk.css",
+    "static/js/main.a1f0ef47.chunk.js"
+  ]
+}
