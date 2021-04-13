@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import './App.css';
 import SingerProfile from './SingerProfile';
+import NavButtons from './NavButtons';
 
 class App extends React.Component {
   constructor(props) {
@@ -10,6 +11,34 @@ class App extends React.Component {
       all: null, 
       row: null,
     };
+    this.all=this.all.bind(this);
+    this.reset=this.reset.bind(this);
+    this.parks=this.parks.bind(this);
+    this.gym=this.gym.bind(this);
+    this.delete=this.delete.bind(this);
+  }
+
+  reset(){
+    this.setState({
+      ...this.state,
+      row:this.state.all
+    })
+  }
+
+  parks(){
+    const parks=this.state.all.filter(data=>data.name.toLowerCase().includes("park"));
+    this.setState({
+      ...this.state,
+      row:parks
+    })
+  }
+
+  gym(){
+    const gym=this.state.all.filter(data=>data.name.toLowerCase().includes("gym"));
+    this.setState({
+      ...this.state,
+      row:gym
+    })
   }
 
   //  This example shows us how to get data from our database
@@ -25,17 +54,23 @@ class App extends React.Component {
   //  in and get started.
 
   all() {
-    let that = this;  //  "this" changes inside of the then() function, so we'll save a reference to it
-    return axios.get(process.env.REACT_APP_URL + '/data.php')
-      .then(function(res) {
-        //  We'll set our local state to the rows returned from the example
-        that.setState({all: res.data.data});
-        return res.data.data;
-      })
-      .catch(function(err) {
-        console.log(err);
-        return null;
-      });
+    //  "this" changes inside of the then() function, so we'll save a reference to it
+    // return axios.get(process.env.REACT_APP_URL + '/data.php')
+    //   .then(function(res) {
+    //     //  We'll set our local state to the rows returned from the example
+    //     this.setState({all: res.data.data});
+    //     return res.data.data;
+    //   })
+    //   .catch(function(err) {
+    //     console.log(err);
+    //     return null;
+    //   });
+
+      let data=[{"id": 1, "name":"yellow park" , amazing_level: 10, country: "India", lat: 47.444, lng: -122.176},
+      {"id": 2, "name":"arnold gym" , amazing_level: 9, country: "India", lat: 49.444, lng: -125.176},
+      {"id": 3, "name":"redwood park" , amazing_level: 10, country: "India", lat: 51.444, lng: -127.176},
+      {"id": 4, "name":"newjersy gym" , amazing_level: 5, country: "India", lat: 53.444, lng: -129.176}];
+      this.setState({all:data,row:data})
   }
 
   get(id) {
@@ -71,17 +106,21 @@ class App extends React.Component {
       });
   }
 
+
   delete(id) {
-    let that = this;  //  "this" changes inside of the then() function, so we'll save a reference to it
-    return axios.delete(`${process.env.REACT_APP_URL}/data.php?id=${id}`, {})
-      .then(function(res) {
-        that.setState({row: null});
-        return res.data.data;
-      })
-      .catch(function(err) {
-        console.log(err);
-        return null;
-      });
+    // let that = this;  //  "this" changes inside of the then() function, so we'll save a reference to it
+    // return axios.delete(`${process.env.REACT_APP_URL}/data.php?id=${id}`, {})
+    //   .then(function(res) {
+    //     that.setState({row: null});
+    //     return res.data.data;
+    //   })
+    //   .catch(function(err) {
+    //     console.log(err);
+    //     return null;
+    //   });
+    const d1=this.state.all.filter(data=>data.id!==id);
+    const d2=this.state.row.filter(data=>data.id!==id);
+    this.setState({row:d2,all:d1})
   }
 
   create(name, amazingLevel, country) {
@@ -160,14 +199,16 @@ class App extends React.Component {
   //  and rendering the component. A great time to try to
   //  get data.
   componentDidMount() {
-    this.runTests();
+    this.all();
   }
 
   render() {
     return (
       <div className="App">
         <h3>Artist Spotlight</h3>
-        <SingerProfile profile={this.state.row} />
+        <NavButtons reset={this.reset} parks={this.parks} gym={this.gym}/>
+        <SingerProfile profile={this.state.row} all={this.state.all}
+         delete={this.delete}/>
       </div>
     );
   }

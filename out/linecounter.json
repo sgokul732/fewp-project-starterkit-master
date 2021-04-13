@@ -1,0 +1,386 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "c:\\Users\\ACER\\Downloads\\fewp-project-starterkit-master2-al043cc4\\Apr13map",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2021-04-14 01:17:51",
+            "filesum": 50,
+            "codesum": 16842,
+            "commentsum": 311,
+            "blanksum": 226,
+            "statistics": {
+                ".css": {
+                    "code": 50,
+                    "comment": 3,
+                    "blank": 9
+                },
+                ".js": {
+                    "code": 244,
+                    "comment": 87,
+                    "blank": 39
+                },
+                ".md": {
+                    "code": 53,
+                    "comment": 2,
+                    "blank": 24
+                },
+                "": {
+                    "code": 19,
+                    "comment": 1,
+                    "blank": 5
+                },
+                ".json": {
+                    "code": 15701,
+                    "comment": 0,
+                    "blank": 6
+                },
+                ".example": {
+                    "code": 5,
+                    "comment": 2,
+                    "blank": 2
+                },
+                ".map": {
+                    "code": 5,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".svg": {
+                    "code": 1,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".lock": {
+                    "code": 459,
+                    "comment": 0,
+                    "blank": 17
+                },
+                ".txt": {
+                    "code": 6,
+                    "comment": 39,
+                    "blank": 4
+                },
+                ".php": {
+                    "code": 286,
+                    "comment": 154,
+                    "blank": 116
+                },
+                ".html": {
+                    "code": 13,
+                    "comment": 23,
+                    "blank": 4
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 2,
+                    "filename": ".env.example"
+                },
+                {
+                    "blank": 5,
+                    "code": 18,
+                    "comment": 1,
+                    "filename": ".gitignore"
+                },
+                {
+                    "blank": 1,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "build\\asset-manifest.json"
+                },
+                {
+                    "blank": 57,
+                    "code": 140,
+                    "comment": 75,
+                    "filename": "build\\data.php"
+                },
+                {
+                    "filename": "build\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\index.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 2,
+                    "filename": "build\\index.php"
+                },
+                {
+                    "filename": "build\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "build\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "build\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "build\\robots.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "build\\static\\css\\main.8c3662ba.chunk.css"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\css\\main.8c3662ba.chunk.css.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 3,
+                    "filename": "build\\static\\js\\2.8b41df7c.chunk.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 0,
+                    "comment": 37,
+                    "filename": "build\\static\\js\\2.8b41df7c.chunk.js.LICENSE.txt"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\js\\2.8b41df7c.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "build\\static\\js\\3.97655e50.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\js\\3.97655e50.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "build\\static\\js\\main.550f336b.chunk.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\js\\main.550f336b.chunk.js.map"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 1,
+                    "filename": "build\\static\\js\\runtime-main.85fb33e5.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "build\\static\\js\\runtime-main.85fb33e5.js.map"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "composer.json"
+                },
+                {
+                    "blank": 17,
+                    "code": 459,
+                    "comment": 0,
+                    "filename": "composer.lock"
+                },
+                {
+                    "blank": 0,
+                    "code": 15572,
+                    "comment": 0,
+                    "filename": "package-lock.json"
+                },
+                {
+                    "blank": 3,
+                    "code": 41,
+                    "comment": 0,
+                    "filename": "package.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "Procfile"
+                },
+                {
+                    "blank": 57,
+                    "code": 140,
+                    "comment": 75,
+                    "filename": "public\\data.php"
+                },
+                {
+                    "filename": "public\\favicon.ico",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 4,
+                    "code": 12,
+                    "comment": 23,
+                    "filename": "public\\index.html"
+                },
+                {
+                    "blank": 1,
+                    "code": 3,
+                    "comment": 2,
+                    "filename": "public\\index.php"
+                },
+                {
+                    "filename": "public\\logo192.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "filename": "public\\logo512.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "public\\manifest.json"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 1,
+                    "filename": "public\\robots.txt"
+                },
+                {
+                    "blank": 24,
+                    "code": 53,
+                    "comment": 2,
+                    "filename": "README.md"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "src\\App.css"
+                },
+                {
+                    "blank": 24,
+                    "code": 122,
+                    "comment": 74,
+                    "filename": "src\\App.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "src\\App.test.js"
+                },
+                {
+                    "filename": "src\\images\\delete.png",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\index.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 13,
+                    "comment": 3,
+                    "filename": "src\\index.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 0,
+                    "filename": "src\\logo.svg"
+                },
+                {
+                    "blank": 0,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "src\\Map.css"
+                },
+                {
+                    "blank": 5,
+                    "code": 46,
+                    "comment": 0,
+                    "filename": "src\\Map.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 13,
+                    "comment": 0,
+                    "filename": "src\\NavButtons.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "src\\reportWebVitals.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 1,
+                    "comment": 4,
+                    "filename": "src\\setupTests.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 30,
+                    "comment": 2,
+                    "filename": "src\\SingerProfile.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "src\\SingerProfile.js"
+                }
+            ]
+        }
+    ]
+}

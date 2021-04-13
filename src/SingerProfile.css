@@ -6,9 +6,11 @@
     color: black;
     font-size: 18px;
     width: 600px;
+    margin: 20px auto;   
 }
 
 .SingerProfileData {
+    
     display: grid;
     grid-template-columns: 4fr 2fr;
 }
@@ -35,3 +37,4 @@ easily just put the text inside of the template as well */
     content: "Country";
     display: block;
 }
+

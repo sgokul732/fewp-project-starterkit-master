@@ -1,0 +1,78 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2021-04-14 01:17:51
+count workspace : c:\Users\ACER\Downloads\fewp-project-starterkit-master2-al043cc4\Apr13map
+total files : 50
+total code lines : 16842
+total comment lines : 311
+total blank lines : 226
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |           .css|             50|              3|              9|   0.30|
+   |            .js|            244|             87|             39|    1.4|
+   |            .md|             53|              2|             24|   0.31|
+   |               |             19|              1|              5|   0.11|
+   |          .json|          15701|              0|              6|     93|
+   |       .example|              5|              2|              2|  0.030|
+   |           .map|              5|              0|              0|  0.030|
+   |           .svg|              1|              0|              0| 0.0059|
+   |          .lock|            459|              0|             17|    2.7|
+   |           .txt|              6|             39|              4|  0.036|
+   |           .php|            286|            154|            116|    1.7|
+   |          .html|             13|             23|              4|  0.077|
+   -------------------------------------------------------------------------
+.env.example, code is 5, comment is 2, blank is 2.
+.gitignore, code is 18, comment is 1, blank is 5.
+build\asset-manifest.json, code is 21, comment is 0, blank is 1.
+build\data.php, code is 140, comment is 75, blank is 57.
+build\favicon.ico, it is a binary file.
+build\index.html, code is 1, comment is 0, blank is 0.
+build\index.php, code is 3, comment is 2, blank is 1.
+build\logo192.png, it is a binary file.
+build\logo512.png, it is a binary file.
+build\manifest.json, code is 25, comment is 0, blank is 0.
+build\robots.txt, code is 3, comment is 1, blank is 0.
+build\static\css\main.8c3662ba.chunk.css, code is 1, comment is 1, blank is 0.
+build\static\css\main.8c3662ba.chunk.css.map, code is 1, comment is 0, blank is 0.
+build\static\js\2.8b41df7c.chunk.js, code is 1, comment is 3, blank is 0.
+build\static\js\2.8b41df7c.chunk.js.LICENSE.txt, code is 0, comment is 37, blank is 4.
+build\static\js\2.8b41df7c.chunk.js.map, code is 1, comment is 0, blank is 0.
+build\static\js\3.97655e50.chunk.js, code is 1, comment is 1, blank is 0.
+build\static\js\3.97655e50.chunk.js.map, code is 1, comment is 0, blank is 0.
+build\static\js\main.550f336b.chunk.js, code is 1, comment is 1, blank is 0.
+build\static\js\main.550f336b.chunk.js.map, code is 1, comment is 0, blank is 0.
+build\static\js\runtime-main.85fb33e5.js, code is 1, comment is 1, blank is 0.
+build\static\js\runtime-main.85fb33e5.js.map, code is 1, comment is 0, blank is 0.
+composer.json, code is 17, comment is 0, blank is 2.
+composer.lock, code is 459, comment is 0, blank is 17.
+package-lock.json, code is 15572, comment is 0, blank is 0.
+package.json, code is 41, comment is 0, blank is 3.
+Procfile, code is 1, comment is 0, blank is 0.
+public\data.php, code is 140, comment is 75, blank is 57.
+public\favicon.ico, it is a binary file.
+public\index.html, code is 12, comment is 23, blank is 4.
+public\index.php, code is 3, comment is 2, blank is 1.
+public\logo192.png, it is a binary file.
+public\logo512.png, it is a binary file.
+public\manifest.json, code is 25, comment is 0, blank is 0.
+public\robots.txt, code is 3, comment is 1, blank is 0.
+README.md, code is 53, comment is 2, blank is 24.
+src\App.css, code is 3, comment is 0, blank is 0.
+src\App.js, code is 122, comment is 74, blank is 24.
+src\App.test.js, code is 7, comment is 0, blank is 1.
+src\images\delete.png, it is a binary file.
+src\index.css, code is 12, comment is 0, blank is 1.
+src\index.js, code is 13, comment is 3, blank is 1.
+src\logo.svg, code is 1, comment is 0, blank is 0.
+src\Map.css, code is 4, comment is 0, blank is 0.
+src\Map.js, code is 46, comment is 0, blank is 5.
+src\NavButtons.js, code is 13, comment is 0, blank is 0.
+src\reportWebVitals.js, code is 12, comment is 0, blank is 1.
+src\setupTests.js, code is 1, comment is 4, blank is 0.
+src\SingerProfile.css, code is 30, comment is 2, blank is 8.
+src\SingerProfile.js, code is 26, comment is 0, blank is 7.
+===============================================================================
